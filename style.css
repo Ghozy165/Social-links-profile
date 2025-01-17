@@ -30,38 +30,38 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  background-color: var(--grey-900);
-  font-family: var(--font-inter-regular);
-  color: var(--white);
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--grey-900);
+    font-family: var(--font-inter-regular);
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
-  background-color: var(--grey-800);
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem;
-  gap: 1.5rem;
-  border-radius: .8rem;
+    background-color: var(--grey-800);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    border-radius: .8rem;
 }
 
 .card > .card-profile {
@@ -70,6 +70,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1.8rem;
+    margin: 0 .8rem;
 }
 .card > .card-profile > .avatar {
     max-width: 6rem;
@@ -97,6 +98,7 @@ body {
     color: var(--white);
     margin: 0;
     padding: 0;
+    letter-spacing: 1px;
 }
 .location {
     font-family: var(--font-inter-semibold);
@@ -105,6 +107,7 @@ body {
     margin: 0;
     padding: 0;
     filter: brightness(0.9);
+    letter-spacing: .5px;
 }
 .bio {
     font-family: var(--font-inter-regular);
@@ -112,7 +115,7 @@ body {
     color: var(--white);
     margin: 0;
     padding: 0;
-    filter: brightness(0.7);
+    filter: brightness(0.8);
 }
 
 .card > .card-social {
@@ -139,4 +142,15 @@ body {
     background-color: var(--green);
     color: var(--grey-900);
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding: 2rem;
+        gap: 1.5rem;
+        border-radius: 1rem;
+    }
+    .card >.card-social > button {
+        border-radius: .5rem;
+    }
 }
