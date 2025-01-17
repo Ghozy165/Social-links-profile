@@ -37,4 +37,8 @@ body {
   background-color: var(--grey-900);
   font-family: var(--font-inter-regular);
   color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
