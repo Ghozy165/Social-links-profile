@@ -1,0 +1,40 @@
+@font-face { 
+    font-family: 'Inter-Regular';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} 
+@font-face { 
+    font-family: 'Inter-SemiBold';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}    
+@font-face { 
+    font-family: 'Inter-Bold';
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}    
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+
+  --font-inter-regular: 'Inter-Regular', sans-serif;
+  --font-inter-semibold: 'Inter-SemiBold', sans-serif;
+  --font-inter-bold: 'Inter-Bold', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--grey-900);
+  font-family: var(--font-inter-regular);
+  color: var(--white);
+}
