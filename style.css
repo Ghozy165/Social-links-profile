@@ -45,7 +45,6 @@ body {
 }
 
 .container {
-  background-color: var(--grey-800);
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -54,13 +53,15 @@ body {
 }
 
 .card {
+  background-color: var(--grey-800);
   width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1.5rem;
+  padding: 1.5rem;
   gap: 1.5rem;
+  border-radius: .8rem;
 }
 
 .card > .card-profile {
@@ -104,8 +105,21 @@ body {
 }
 
 .card > .card-social {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+}
+.card >.card-social > button {
+    width: 100%;
+    font-family: var(--font-inter-semibold);
+    font-size: 0.875rem;
+    color: var(--white);
+    background-color: var(--grey-700);
+    border: none;
+    border-radius: 0.4rem;
+    padding: .8rem 0;
+    margin: 0;
 }
