@@ -134,3 +134,9 @@ body {
     padding: .8rem 0;
     margin: 0;
 }
+.card >.card-social > button:hover {
+    font-family: var(--font-inter-bold);
+    background-color: var(--green);
+    color: var(--grey-900);
+    cursor: pointer;
+}
