@@ -90,7 +90,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.6rem;
 }
 .username {
     font-family: var(--font-inter-regular);
