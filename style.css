@@ -73,8 +73,8 @@ body {
     margin: 0 .8rem;
 }
 .card > .card-profile > .avatar {
-    max-width: 6rem;
-    max-height: 6rem;
+    max-width: 5rem;
+    max-height: 5rem;
     padding: 0;
     margin: 0;
 }
@@ -106,7 +106,6 @@ body {
     color: var(--green);
     margin: 0;
     padding: 0;
-    filter: brightness(0.9);
     letter-spacing: .5px;
 }
 .bio {
@@ -115,7 +114,6 @@ body {
     color: var(--white);
     margin: 0;
     padding: 0;
-    filter: brightness(0.8);
 }
 
 .card > .card-social {
@@ -152,6 +150,7 @@ body {
         gap: 1.5rem;
         border-radius: 1rem;
     }
+
     .card >.card-social > a {
         border-radius: .5rem;
     }
