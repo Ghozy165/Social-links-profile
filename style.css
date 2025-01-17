@@ -146,13 +146,11 @@ body {
 
 @media (min-width: 768px) {
     .card {
-        padding: 2rem;
+        padding: 3rem;
         gap: 1.5rem;
-        border-radius: 1rem;
     }
 
     .card >.card-social > a {
         padding: .9rem 0;
-        border-radius: .5rem;
     }
 }
