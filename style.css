@@ -42,3 +42,47 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
+.container {
+  background-color: var(--grey-800);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.card > .card-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card > .card-profile > .avatar {
+    max-width: 7.5rem;
+    max-height: 7.5rem;
+    padding: 0;
+    margin: 0;
+}
+.card > .card-profile > .avatar > img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+
+.card > .card-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
