@@ -153,6 +153,7 @@ body {
 
     .card >.card-social > a {
         font-size: 1rem;
+        padding: 1rem 0;
         border-radius: .5rem;
     }
 }
